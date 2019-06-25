@@ -1,4 +1,10 @@
-/* Basic sample */
+/* Basic Page CSS */
+
+* {
+	font-family: 'Amatic SC', sans-serif;
+	color: #37424a;
+	font-size:30px;
+}
 
 body{
 	overflow:hidden;
@@ -6,6 +12,21 @@ body{
 	margin:0;
 	padding:0;
 }
+
+h1 {
+	font-size:2em;
+}
+
+p {
+	font-size:2em;
+}
+
+.frontPageHeadline {
+	text-align:center;
+	margin-right: 5vw;
+}
+
+/* Flipbook Specific CSS */
 
 .flipbook-viewport{
 	overflow:hidden;
@@ -64,4 +85,10 @@ body{
 	-o-box-shadow:0 0 20px #ccc;
 	-ms-box-shadow:0 0 20px #ccc;
 	box-shadow:0 0 20px #ccc;
+}
+
+/* Pages CSS */
+
+.page {
+	padding: 2vw;
 }
